@@ -28,7 +28,6 @@ This isn't on the Chrome Web Store yet. To load it manually:
 * `tabs`: Reading the URL of your active tab
 * `alarms`: Running the background save and daily cleanup tasks
 * `idle`: Pausing the timer when you step away
-* `favicon`: Loading site icons from Chrome's cache
 
 ## Tech
 * Vanilla JS, HTML, CSS
