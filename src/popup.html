@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Stan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="header-left">
+        <img src="../icons/icon128.png" class="logo" alt="Web Stan" />
+        <div>
+          <h1>Web Stan</h1>
+          <p class="subtitle">your daily browse recap</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" id="tab-today">Today</button>
+      <button class="tab" id="tab-weekly">This Week</button>
+    </div>
+
+    <div class="content">
+
+      <div class="view" id="view-today">
+        <ul id="today-list">
+          <li class="loading">Loading your stats...</li>
+        </ul>
+      </div>
+
+      <div class="view hidden" id="view-weekly">
+        <canvas id="weekly-chart"></canvas>
+      </div>
+
+    </div>
+
+    <script src="../lib/chart.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
